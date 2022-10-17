@@ -1,16 +1,16 @@
 #pragma once
-#ifndef RABBIT_H
-#define RABBIT_H
+#ifndef DOG_H
+#define DOG_H
 
 #include "Pet.h"
 
-class Rabbit : public Pet {
+class Dog : public Pet {
 public:
-	Rabbit();
-	Rabbit(int, int, int);
+	Dog();
+	Dog(int, int, int);
 	void Play(int fun = 5);
 	void Eat(int food, string);
 	void Sleep(int bed, string);
 	void Draw();
 };
-#endif // !RABBIT_H
+#endif // !DOG_H
